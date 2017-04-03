@@ -1,0 +1,107 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #e9f0fa;
+}
+footer {
+    text-align: center;
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.carousel-caption {
+    color: #333;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img {
+    width: 50%; 
+    margin: auto;
+    opacity: 0.6; 
+}
+.carousel-indicators li {
+    border: 1px solid #333;
+}
+.carousel-indicators .active {
+    background-color: #333;
+}
+#slides {
+
+}
+
+.carousel-caption {
+    font-size: 20px;
+}
+.item {
+    height: 280px;
+}
+#load {
+    margin-top: 30px;
+}
+
+@media (min-width: 576px) {
+    .carousel-caption {
+        font-size: 32px;
+    }
+    .item {
+        height: 320px;
+    }
+    #load {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption {
+        font-size: 38px;
+    }
+    .item {
+        height: 400px;
+    }
+    #load {
+        margin-top: 60px;
+    }
+    .carousel-indicators .active {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-caption {
+        font-size: 48px;
+    }
+    .item {
+        height: 560px;
+    }  
+}
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        font-size: 60px;
+    }
+    .item {
+        height: 660px;
+    }
+}
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+}

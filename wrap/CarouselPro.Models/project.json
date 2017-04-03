@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "wrappedProject": "../../CarouselPro.Models/CarouselPro.Models.csproj",
+      "bin": {
+        "assembly": "../../CarouselPro.Models/obj/{configuration}/CarouselPro.Models.dll",
+        "pdb": "../../CarouselPro.Models/obj/{configuration}/CarouselPro.Models.pdb"
+      },
+      "dependencies": {
+        "EntityFramework": "6.1.3",
+        "Microsoft.CodeDom.Providers.DotNetCompilerPlatform": "1.0.0",
+        "Microsoft.Net.Compilers": "1.0.0"
+      }
+    }
+  }
+}
